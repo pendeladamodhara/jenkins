@@ -12,11 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class SpringExampleApplication {
 	private final static Logger LOGGER = LoggerFactory.getLogger(SpringExampleApplication.class);
+
 	public static void main(String[] args) {
-		
+
 		LOGGER.info("Before Starting of main method");
 		SpringApplication.run(SpringExampleApplication.class, args);
 		LOGGER.info("After Starting of main method");
 	}
- 
+
 }
