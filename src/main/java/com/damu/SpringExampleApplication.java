@@ -23,7 +23,7 @@ public class SpringExampleApplication {
 	@GetMapping("/message")
 	public String getWelcome()
 	{
-		System.out.println("please print this message in console");
+		LOGGER.info("this devolop branch");
 		return "Hello World";
 	}
 
